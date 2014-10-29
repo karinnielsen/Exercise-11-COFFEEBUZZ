@@ -1,0 +1,24 @@
+{
+  "name": "Exercise_11_FIZZBUZZ_COFFEESCRIPT",
+  "version": "1.0.0",
+  "description": "A Fizzbuzz project written in Coffeescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script/register -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:karinnielsen/Exercise-11-FIZZBUZZ-CoffeScript.git"
+  },
+  "author": "Shorty Nielsen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karinnielsen/Exercise-11-FIZZBUZZ-CoffeScript/issues"
+  },
+  "homepage": "https://github.com/karinnielsen/Exercise-11-FIZZBUZZ-CoffeScript",
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "coffee-script": "^1.8.0",
+    "mocha": "^2.0.1"
+  }
+}
