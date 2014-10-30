@@ -49,7 +49,8 @@ before ->
 	it "prints 'fizz' when number is divisible by 3", ->
 		expect(coffeebuzz.prints(3)).to.equal("fizz")
 
-
+	it "prints number when input number is not divisibly by 3, 5 or 15", ->
+		expect(coffeebuzz.prints(2)).to.equal(2)
 
 
 
