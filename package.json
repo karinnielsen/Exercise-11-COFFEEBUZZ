@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:karinnielsen/Exercise-11-FIZZBUZZ-CoffeScript.git"
+    "url": "git@github.com:karinnielsen/Exercise-11-COFFEEBUZZ.git"
   },
   "author": "Shorty Nielsen",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/karinnielsen/Exercise-11-FIZZBUZZ-CoffeScript/issues"
+    "url": "https://github.com/karinnielsen/Exercise-11-COFFEEBUZZ/issues"
   },
-  "homepage": "https://github.com/karinnielsen/Exercise-11-FIZZBUZZ-CoffeScript",
+  "homepage": "https://github.com/karinnielsen/Exercise-11-COFFEEBUZZ",
   "devDependencies": {
     "chai": "^1.9.2",
     "coffee-script": "^1.8.0",
