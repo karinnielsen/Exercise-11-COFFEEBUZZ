@@ -5,6 +5,8 @@ CoffeeBuzz = require '../src/coffeebuzz'
 
 describe "numbers that are divisible by 3,5 and 15", ->
 
+	coffeebuzz = null
+
 	before ->
 		coffeebuzz = new CoffeeBuzz
 
@@ -17,13 +19,12 @@ describe "numbers that are divisible by 3,5 and 15", ->
 	it "15 is", ->
 		expect(coffeebuzz.divisibleByFifteen(15)).to.be.true
 
-describe "numbers that are not divisible by 3,5 and 15", ->
 
-	it "0 is not", ->
-		expect(coffeebuzz.divisibleByThree(3)).to.be.true
+	describe "numbers that are NOT divisible by 3,5 and 15", ->
 
-	it "1 is not", ->
-		expect(coffeebuzz.divisibleByFive(5)).to.be.true
+		it "0 is not", ->
+			expect(coffeebuzz.divisibleByThree(0)).to.be.false
+
 
 
 
