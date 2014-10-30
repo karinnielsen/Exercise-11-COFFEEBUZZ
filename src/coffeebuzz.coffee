@@ -7,7 +7,7 @@ class CoffeeBuzz
 		number % 5 is 0
 
 	divisibleByFifteen: (number) ->
-		true
+		number % 15 is 0
 
 
 module.exports = CoffeeBuzz

@@ -31,6 +31,9 @@ before ->
 	it "7 is not", ->
 		expect(coffeebuzz.divisibleByFive(7)).to.be.false
 
+	it "11 is not", ->
+		expect(coffeebuzz.divisibleByFifteen(11)).to.be.false
+
 
 
 
