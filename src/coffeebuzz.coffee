@@ -1,12 +1,12 @@
 class CoffeeBuzz
 
-	divisibleByThree: (n) ->
+	divisibleByThree: (number) ->
 		true
 
-	divisibleByFive: (n) ->
+	divisibleByFive: (number) ->
 		true
 
-	divisibleByFifteen: (n) ->
+	divisibleByFifteen: (number) ->
 		true
 
 module.exports = CoffeeBuzz
