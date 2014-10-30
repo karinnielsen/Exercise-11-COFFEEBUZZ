@@ -9,4 +9,5 @@ class CoffeeBuzz
 	divisibleByFifteen: (number) ->
 		true
 
+
 module.exports = CoffeeBuzz
