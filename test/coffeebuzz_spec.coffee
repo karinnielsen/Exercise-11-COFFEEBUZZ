@@ -35,9 +35,19 @@ before ->
 		expect(coffeebuzz.divisibleByFifteen(11)).to.be.false
 
 
+describe "prints 'coffee', 'buzz' instead of number", ->
 
+before ->
+	coffeebuzz = new CoffeeBuzz
 
+	it "prints 'coffeebuzz' when number is divisible by 15", ->
+		expect(coffeebuzz.prints(15)).to.equal("coffeebuzz")
 
+	it "prints 'buzz' when number is divisible by 5", ->
+		expect(coffeebuzz.prints(5)).to.equal("buzz")
+
+	it "prints 'fizz' when number is divisible by 3", ->
+		expect(coffeebuzz.prints(3)).to.equal("fizz")
 
 
 
