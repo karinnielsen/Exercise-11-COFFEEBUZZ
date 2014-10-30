@@ -1,13 +1,15 @@
 class CoffeeBuzz
 
 	divisibleByThree: (number) ->
-		number % 3 is 0
+		@divisibleBy(number, 3)
 
 	divisibleByFive: (number) ->
-		number % 5 is 0
+		@divisibleBy(number, 5)
 
 	divisibleByFifteen: (number) ->
-		number % 15 is 0
+		@divisibleBy(number, 15)
 
+	divisibleBy: (number, divisor) ->
+		number % divisor == 0 
 
 module.exports = CoffeeBuzz
