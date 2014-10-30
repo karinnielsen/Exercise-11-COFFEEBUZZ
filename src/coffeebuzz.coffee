@@ -1,7 +1,7 @@
 class CoffeeBuzz
 
 	divisibleByThree: (number) ->
-		true
+		number % 3 is 0
 
 	divisibleByFive: (number) ->
 		true

@@ -20,10 +20,20 @@ describe "numbers that are divisible by 3,5 and 15", ->
 		expect(coffeebuzz.divisibleByFifteen(15)).to.be.true
 
 
-	describe "numbers that are NOT divisible by 3,5 and 15", ->
+describe "numbers that are NOT divisible by 3,5 and 15", ->
 
-		it "0 is not", ->
-			expect(coffeebuzz.divisibleByThree(0)).to.be.false
+before ->
+	coffeebuzz = new CoffeeBuzz
+
+	it "1 is not", ->
+		expect(coffeebuzz.divisibleByThree(1)).to.be.false
+
+	it "7 is not", ->
+		expect(coffeebuzz.divisibleByFive(7)).to.be.false
+
+
+
+
 
 
 
